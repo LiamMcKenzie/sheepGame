@@ -335,6 +335,7 @@
 "Assets/RW/Scripts/Move.cs"
 "Assets/RW/Scripts/Rotate.cs"
 "Assets/RW/Scripts/Sheep.cs"
+"Assets/RW/Scripts/SheepSpawner.cs"
 -langversion:9.0
 
 /deterministic
