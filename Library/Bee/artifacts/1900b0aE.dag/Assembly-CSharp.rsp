@@ -334,6 +334,7 @@
 "Assets/RW/Scripts/HayMachine.cs"
 "Assets/RW/Scripts/Move.cs"
 "Assets/RW/Scripts/Rotate.cs"
+"Assets/RW/Scripts/Sheep.cs"
 -langversion:9.0
 
 /deterministic
