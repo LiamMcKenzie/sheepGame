@@ -331,6 +331,7 @@
 "Assets/RW/Scripts/DestroyOnTrigger.cs"
 "Assets/RW/Scripts/DestroyTimer.cs"
 "Assets/RW/Scripts/HayMachine.cs"
+"Assets/RW/Scripts/Manager/SoundManager.cs"
 "Assets/RW/Scripts/Move.cs"
 "Assets/RW/Scripts/Rotate.cs"
 "Assets/RW/Scripts/Sheep.cs"
