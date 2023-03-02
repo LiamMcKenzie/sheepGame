@@ -31,6 +31,7 @@ public class Sheep : MonoBehaviour
 
     private void HitByHay()
     {
+        GameStateManager.Instance.SavedSheep();
         SoundManager.Instance.PlaySheepHitClip();
         sheepSpawner.RemoveSheepFromList(gameObject);
         hitByHay = true; 
@@ -60,6 +61,7 @@ public class Sheep : MonoBehaviour
 
     private void Drop()
     {
+        GameStateManager.Instance.DroppedSheep();
         SoundManager.Instance.PlaySheepDroppedClip();
         sheepSpawner.RemoveSheepFromList(gameObject);
         dropped = true;
