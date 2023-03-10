@@ -40,6 +40,10 @@ public class GameStateManager : MonoBehaviour
         sheepSpawner.canSpawn = false; 
         sheepSpawner.DestroyAllSheep(); 
         UIManager.Instance.ShowGameOverWindow();
+
+        if(sheepSaved > GameSettings.highScore){
+            GameSettings.highScore = sheepSaved;
+        }
     }
 
     public void DroppedSheep()

@@ -19,7 +19,6 @@ public class HayMachineSwitcher : MonoBehaviour, IPointerClickHandler
 
         GameSettings.hayMachineColor = (HayMachineColor)selectedIndex; 
 
-        // 5
         switch (GameSettings.hayMachineColor)
         {
             case HayMachineColor.Blue:
